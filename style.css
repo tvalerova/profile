@@ -1,0 +1,122 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #4F6D7A;
+  background-color: #D4CDC3;
+}
+
+div {
+  background-color: #FDFFFC;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #A28F9D;
+  font-size: 28px;
+}
+
+p {
+  padding-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 1000px;
+  height: 370px;
+  margin: 20px auto;
+}
+
+.card-contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 1000px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.img-square {
+  height: 100px;
+  width: 125px;
+  padding-bottom: 30px;
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.btn {
+  color: #A28F9D;
+  text-decoration: none;
+  background-color: #595F72;
+  padding: 15px 20px;
+  border-radius: 4px;
+  }
+
+a.btn {
+  text-decoration: none;
+}
+
+a.btn:hover {
+  background-color: #4F6D7A;
+
+}
+
+.fab {
+  color: #A28F9D;
+  font-size: 50px;
+}
+
+.fab:hover {
+  color: #4F6D7A;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-contact {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-contact {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-contact {
+    width: 300px;
+  }
+}
